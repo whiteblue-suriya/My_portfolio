@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suriyakumar R _ Data Science & AI</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Portfo<span>lio.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="greeting">Hai, I'm</span>
+      <h1>Suriyakumar</h1>
+      <h2>Data Science And AI <span class="cursor">|</span></h2>
+      <p>Building innovative solutions with clean code and creative thinking. MCA graduate passionate about web development and data science.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <button class="btn btn-outline" onclick="openHireModal()">Hire Me</button>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/suriyakumar-r-aba174274/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/whiteblue-suriya" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/_i.am.suriya_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="suriyaramesh009@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <img src="suriya.jpg" alt="Suriyakumar">
+        <div class="glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <p class="section-subtitle">Technologies I work with</p>
+    </div>
+    <div class="skills-grid">
+      <!-- <div class="skill-card">
+        <div class="skill-icon"> fa-python"></i<i class="fab></div>
+        <h3>Python</h3>
+        <p>Problem-solving, functions, and methods. Building a solid foundation in core concepts.</p>
+        <span class="skill-level">Intermediate</span>
+      </div> -->
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <h3>Data Science & AI</h3>
+        <p>Currently enrolled; expected completion in 2026. Covers Python, SQL, ML, and statistical modeling.</p>
+        <span class="skill-level ongoing">Ongoing</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-table"></i></div>
+        <h3>NumPy & Pandas</h3>
+        <p>Numerical computing, arrays, matrices, data manipulation and analysis using Python.</p>
+        <span class="skill-level">Good</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Data Visualization</h3>
+        <p>Matplotlib and Seaborn for creating informative and attractive statistical graphics.</p>
+        <span class="skill-level">Good</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+        <h3>Machine Learning</h3>
+        <p>Scikit-learn for classification, regression, clustering, and model building.</p>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+        <h3>Deep Learning</h3>
+        <p>TensorFlow and Keras for building neural networks and deep learning models.</p>
+        <span class="skill-level">Intermediate</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <h3>HTML</h3>
+        <p>Elements, attributes, and structure for well-designed web pages.</p>
+        <span class="skill-level">Good</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <h3>CSS</h3>
+        <p>Selectors, properties, and responsive design for visually appealing layouts.</p>
+        <span class="skill-level">Good</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fab fa-js"></i></div>
+        <h3>JavaScript</h3>
+        <p>Variables, functions, and event handling for dynamic web applications.</p>
+        <span class="skill-level">Good</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h3>SQL</h3>
+        <p>Queries, joins, and data manipulation for effective database management.</p>
+        <span class="skill-level">Intermediate</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <p class="section-subtitle">Featured work</p>
+    </div>
+    <div class="projects-container">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="Automated Report Generation.png" alt="Automated Report Generation">
+        </div>
+        <div class="project-content">
+          <h3>Automated Report Generation</h3>
+          <p>A solution for automatically generating reports from data sources, improving efficiency and reducing manual effort.Key features include automated data extraction, customizable report templates, and scheduled report generation.</p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Seaborn/ Streamlit,</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="home1.jpg" alt="Onroad Vehicle Assistance">
+        </div>
+        <div class="project-content">
+          <h3>Onroad Vehicle Breakdown Assistance</h3>
+          <p>A mobile-friendly solution using GPS technology and real-time communication to connect drivers with verified mechanics and gas stations during emergencies. Features a network of trusted service providers for quick assistance.</p>
+          <div class="project-tags">
+            <span>GPS</span>
+            <span>Real-time</span>
+            <span>Web Application</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="portfolio.png" alt="Portfolio">
+        </div>
+        <div class="project-content">
+          <h3>My Portfolio Profile</h3>
+          <p>A personal portfolio showcasing web development skills including HTML, CSS, JavaScript, and SQL. Demonstrates problem-solving abilities and practical experience in creating responsive web interfaces.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-image">
+        <div class="image-box">
+          <img src="suriya.jpg" alt="Suriyakumar">
+        </div>
+        <div class="experience-badge">
+          <span class="exp-number">MCA</span>
+          <span class="exp-text">Graduate</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <h3>Data Science </h3>
+        <p>I'm Suriyakumar, an MCA graduate with proficient skills in Python programming, SQL for data analysis, machine learning, and statistical modeling. I leverage these technologies to develop software solutions, design responsive web interfaces, and manage databases effectively. Passionate about learning and growing in data science, I aim to contribute meaningfully to innovative projects.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">6+</span>
+            <span class="stat-text">Skills</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2+</span>
+            <span class="stat-text">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">2024</span>
+            <span class="stat-text">Graduate</span>
+          </div>
+        </div>
+        <a href="SURIYAKUMAR R_resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <p class="section-subtitle">Get in touch</p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <p>+91 9952628612</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>suriyaramesh009@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Location</h4>
+            <p>Thatrahalli, Krishnagiri</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h3>Suriyakumar</h3>
+      <p>Your Complete Web Solution</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/suriyakumar-r-aba174274/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/_i.am.suriya_/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/whiteblue-suriya" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <p class="copyright">&copy; 2024 Suriya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Hire Me Modal -->
+  <div class="modal" id="hireModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeHireModal()">&times;</span>
+      <h2>Hire Suriyakumar</h2>
+      <p>Full Stack Developer • Data Science Enthusiast • MCA Graduate</p>
+      <form id="hireForm" onsubmit="submitForm(event)">
+        <div class="form-section">
+          <h3>Your Details</h3>
+          <div class="form-group">
+            <label for="recruiterName">HR Manager / Recruiter Name *</label>
+            <input type="text" id="recruiterName" name="name" required placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="companyName">Company Name *</label>
+            <input type="text" id="companyName" name="company" required placeholder="Your Company">
+          </div>
+          <div class="form-group">
+            <label for="recruiterEmail">Work Email *</label>
+            <input type="email" id="recruiterEmail" name="email" required placeholder="your.email@company.com">
+          </div>
+        </div>
+        <div class="form-section">
+          <h3>Job Details & Requirements</h3>
+          <div class="form-group">
+            <label for="jobDetails">Please share: Position, Skills, Salary, Work arrangement, Timeline, Requirements</label>
+            <textarea id="jobDetails" name="jobDetails" rows="5" required placeholder="• Position title and responsibilities&#10;• Required skills and experience&#10;• Salary range or budget&#10;• Work arrangement (remote/hybrid/onsite)&#10;• Project timeline&#10;• Any specific requirements"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Hiring Inquiry</button>
+        <div class="direct-contact">
+          <p><strong>Prefer direct contact?</strong></p>
+          <p>📧 suriyaramesh009@gmail.com &nbsp; 📱 +91 9952628612</p>
+          <p>💼 Available for: Full-time • Contract • Freelance • Remote opportunities</p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Notification -->
+  <div class="notification" id="notification">
+    <span id="notificationText"></span>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    function openHireModal() {
+      document.getElementById('hireModal').style.display = 'flex';
+    }
+
+    function closeHireModal() {
+      document.getElementById('hireModal').style.display = 'none';
+    }
+
+    function submitForm(event) {
+      event.preventDefault();
+      const name = document.getElementById('recruiterName').value;
+      const company = document.getElementById('companyName').value;
+      const email = document.getElementById('recruiterEmail').value;
+      
+      showNotification(`Thank you from ${company}! I'll contact you at ${email} soon regarding the job opportunity.`);
+      closeHireModal();
+      document.getElementById('hireForm').reset();
+    }
+
+    function showNotification(message) {
+      const notification = document.getElementById('notification');
+      const notificationText = document.getElementById('notificationText');
+      notificationText.textContent = message;
+      notification.classList.add('show');
+      setTimeout(() => {
+        notification.classList.remove('show');
+      }, 5000);
+    }
+
+    window.onclick = function(event) {
+      const modal = document.getElementById('hireModal');
+      if (event.target === modal) {
+        closeHireModal();
+      }
+    }
+  </script>
+</body>
+</html>
